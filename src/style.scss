@@ -1,0 +1,13 @@
+.mapContainer {
+  border: 15px solid #e4dbdb;
+  margin-top: 10px;
+  > div:first-child {
+    width: 100% !important; // need this to support browser level zoom
+    height: calc(100vh - 110px) !important;
+  }
+}
+
+.titleText {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+}
